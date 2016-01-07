@@ -175,6 +175,7 @@
               "namespace": "${IMAGE_STREAM_NAMESPACE}",
               "name": "fis-java-openshift:${BUILDER_VERSION}"
             },
+            "incremental": true,
             "forcePull": true,
             "env": [
               {
